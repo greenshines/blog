@@ -1,0 +1,54 @@
+body {font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Inconsolata', monospace;
+  color: #000000;
+}
+
+small{font-size:80%;line-height:normal}
+p{margin-top:10px;margin-bottom:10px;padding-top:0px;padding-bottom:0px;}
+
+h1, h2, h3, h4, h5, h6 {font-size: 18px;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a{color:#0000ff;}
+a:hover{color:#0000ff;}
+
+
+  /* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img{max-width:100%;height: auto}
+.content-title a, .content-title {font-weight: bold; text-decoration: none; color: #000000; line-height: normal;}
+
+  /* HR
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+ hr {
+  position: relative;
+  height: 20px;
+  font-size: 0;
+  line-height: 10;
+  overflow: hidden;
+  border: 0;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+hr:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+line-height: 0px;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+blockquote p{
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ff0000;
+}

@@ -1,0 +1,279 @@
+/********************************************************************************************
+
+Greenshines 
+
+*********************************************************************************************/
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:0}h2{font-size:1.5em;margin:0}h3{font-size:1.17em;margin:0}h4{font-size:1em;margin:0}h5{font-size:.83em;margin:0}h6{font-size:.75em;margin:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* Setup
+*********************************************************************************************/
+
+html {background: url("http://solido.greenshines.com/patineeettte.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+    height: 100%;
+    }
+
+
+body {
+    
+  
+  font-family: 'freight-sans-pro-1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center; 
+	background-color:transparent;   
+}
+
+
+/* Universal Typography
+*********************************************************************************************/
+
+h1 { 
+	
+    font-family: freight-sans-pro-1;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 46px;
+    margin: 0 0 0px;
+    padding: 0px !important;
+	
+}
+
+
+h2 { 
+  
+    font-size: 16px;
+    line-height: 16px;
+     margin-top:50px;
+}
+
+a { 
+    color: #fff;
+    text-decoration: underline;
+    transition-duration: 0.1s;
+}
+
+p {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+small {line-height:24px;}
+
+/* Content
+*********************************************************************************************/
+
+#barra { }
+#barra a {padding-right:30px;}
+#foot { }
+#content {
+    width: 650px;
+    margin: 0px auto;
+    
+}
+
+.row {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#logo,
+#intro,
+#signup {
+    
+}
+
+#logo {
+    padding: 200px 0 0px;
+}
+
+#intro {
+    padding: 0 0 42px;
+}
+
+#signup {
+    padding: 0 0 115px;
+}
+
+#response {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    width: 80%;
+    padding: 0 10%;
+}
+
+#response a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);;
+}
+
+#response p {
+    margin: 0 0 52px;
+}
+
+/* Forms
+*********************************************************************************************/
+
+input[type="text"],
+input[type="email"] {
+    background: none;
+    background-color: #000;
+    border: 1px solid #4b4b4b;
+    border-radius: 3px;
+    outline: none;
+    font-family: Lato; 
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    width: 262px;
+    margin: 0 130px 20px;
+    padding: 15px 0;
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: 0;
+}
+
+/* Buttons
+*********************************************************************************************/
+
+.button {
+    background: #60b86b url('http://greenshines.com/newsletter/assets/check.png') center center no-repeat;    
+    background-size: 20px;
+    border: 5px solid #2d3538;
+    border-radius: 25px !important;
+    font-family: Lato; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.75);
+    width: 50px;
+    height: 50px;
+    margin: 5px 0 0 5px;
+    padding: 0;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -25px;
+    transition-duration: .1s;
+    -webkit-transition-duration: .1s;
+    -webkit-appearance: none;
+}
+
+.button:hover {
+    border-color: #427a49;
+}
+
+/* Mailchimp
+*********************************************************************************************/
+
+.mce_inline_error {
+    background: #660000 !important;
+    border: 1px solid red !important;
+    font-family: Lato !important; 
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    color: red !important;
+}
+
+div.mce_inline_error {
+    display: none !important;
+    color: #fff;
+}
+
+/* Under 650px
+*********************************************************************************************/
+
+@media (max-width: 650px) {
+
+    /* Setup
+    *****************************************************************************************/
+
+    body {text-size:16px; line-height:29px;  }
+    
+    /* Universal Typography
+    *****************************************************************************************/
+    
+    h1 { 
+        font-size: 42px;
+        line-height: 42px;
+        margin: 0 0 20px;
+    }
+    
+    img {
+max-width: 100%
+        
+    }
+
+    /* Content
+    *****************************************************************************************/
+    
+    #content {
+        width: 280px;
+    }
+    
+    #logo {
+        padding: 70px 0 10px;
+    }
+    
+    #intro {
+        padding: 0 0 25px;
+    }
+    
+    #signup {
+        padding: 0 0 0;
+    }
+    
+    /* Forms
+    *****************************************************************************************/
+    
+    input[type="text"],
+    input[type="email"] {
+        width: 242px;
+        margin: 0 19px 20px;
+        padding: 15px 0;
+    }
+    
+}
+
+
+
+/*
+ * SLIDER
+ */
+#slides {
+    left: 0;
+    position: fixed !important;
+    top: 0;
+    z-index: -3;
+    overflow:hidden;
+
+    
+}
+
+#slides .slides-container {
+    display: none;
+
+}
+
+.porisrael {font-size: 12px;font-weight: 400;padding-bottom:0px;text-align: center}
+.h50 {margin-bottom:25px;margin-top:25px;min-height:0px; max-width: 100%; border-top: solid 0px #ccc;margin-left:auto;margin-right:auto;}
+
