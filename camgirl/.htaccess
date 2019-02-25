@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^index\.php$ - [L]
+RewriteRule (.*) https://chaturbate.com/affiliates/in/?track=$1&tour=dT8X&campaign=USFjo&room=$1 [L]
+</IfModule>
